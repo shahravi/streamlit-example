@@ -16,7 +16,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 
-with st.echo(code_location='above'):
+with st.echo(code_location='below'):
     total_points = st.slider("Number of points in spiral - Modified", 1, 5000, 2000)
     num_turns = st.slider("Number of turns in spiral - Modified", 1, 100, 9)
 
